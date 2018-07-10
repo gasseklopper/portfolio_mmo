@@ -289,7 +289,7 @@ html {
 body {
   background: #7d97ad;
   color: #50596c;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-size: .8rem;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
@@ -2007,6 +2007,7 @@ a.text-error:visited {
 
 .about h1 {
   color: #81e3fe;
+  text-decoration: underline;
 }
 
 /*! styleguide section */
