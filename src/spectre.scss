@@ -3,50 +3,49 @@
 @import "mixins";
 
 /*! Spectre.css v#{$version} | MIT License | github.com/picturepan2/spectre */
-// Reset and dependencies
+/*! Reset and dependencies */
 @import "normalize";
 @import "base";
 
-// Elements
+/*! Elements from spectre */
 @import "typography";
-@import "asian";
-@import "tables";
+//@import "asian";
+//@import "tables";
 @import "buttons";
-@import "forms";
+//@import "forms";
 @import "labels";
-@import "codes";
+//@import "codes";
 @import "media";
 
-// Layout
+/*! Layout from spectre  */
 @import "layout";
 //@import "navbar";
 
-// Components
-@import "accordions";
-@import "avatars";
-@import "badges";
-@import "breadcrumbs";
-@import "bars";
-@import "cards";
-@import "chips";
-@import "dropdowns";
-@import "empty";
-@import "menus";
-@import "modals";
-@import "navs";
-@import "pagination";
-@import "panels";
-@import "popovers";
-@import "steps";
-@import "tabs";
-@import "tiles";
-@import "toasts";
-@import "tooltips";
+/*! Components from spectre */
+//@import "accordions";
+//@import "avatars";
+//@import "badges";
+//@import "breadcrumbs";
+//@import "bars";
+//@import "cards";
+//@import "chips";
+//@import "dropdowns";
+//@import "empty";
+//@import "menus";
+//@import "modals";
+//@import "navs";
+//@import "pagination";
+//@import "panels";
+//@import "popovers";
+//@import "steps";
+//@import "tabs";
+//@import "tiles";
+//@import "toasts";
+//@import "tooltips";
 
-// Utility classes
-@import "animations";
+/*! Utility drom spectre */
+//@import "animations";
 @import "utilities";
 
-//Custom Css From Markus Morley
-
+/*! Custom Css From Markus Morley */
 @import "custommmo";
