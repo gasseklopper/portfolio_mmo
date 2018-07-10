@@ -1,0 +1,65 @@
+.bike {
+//background-color: red;
+
+  & .spacing-huge {
+    margin-bottom: 0;
+  }
+
+
+
+  &__intro {
+      margin-bottom: 0;
+      margin-top: 0;
+
+      @media (max-width: 2366px) and (min-width: 992px)
+       {
+      margin-bottom: 3;
+      }
+
+      &--headline {
+      font-weight: 800;
+      font-size: 31px;
+      line-height: 46px;
+      letter-spacing: 0.04em;
+      }
+  }// /bike__intro
+
+  &__content {
+
+    & p {
+
+    }
+
+    &--tags {
+
+      & h4 {
+      }
+
+      & span {
+        font-weight: 400;
+      }
+    }
+
+  }// /bike__content
+}// /bike
+
+.box {
+  //margin-top: 55px;
+
+  &__shadow {
+		//position: relative;
+		margin-top: 5px;
+		padding: 0 22px 22px 0;
+height: 100%;
+width: 100%;
+		background: url(../assets/images/ui/background-stripe.png);
+
+  img {
+
+  //margin-top: -21;
+  //margin-left: -2;
+}
+	}// /box__shadow
+
+// /box__image
+}// /box

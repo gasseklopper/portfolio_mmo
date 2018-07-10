@@ -1,0 +1,22 @@
+.styleguide {
+	&__colors {
+		background: url(../assets/images/ui/background-stripe.png);
+	}
+
+	&__primarybox {
+		margin: 1.2em;
+		min-height: 140px;
+	}
+
+	&__darkbox {
+		margin: 1.2em;
+		min-height: 140px;
+	}
+
+	&__secondarybox {
+		margin: 1.2em;
+		min-height: 140px;
+	}
+
+
+}
