@@ -114,7 +114,7 @@
   }
   .docs-content .s-title::before,
   .docs-content .s-subtitle::before {
-    background: #7d97ad;
+    background: #ddd;
     bottom: 0;
     content: "";
     display: block;
@@ -233,7 +233,7 @@
   align-items: center;
   background: #02b3e4;
   border-radius: .1rem;
-  color: #7d97ad;
+  color: #ddd;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-align: center;

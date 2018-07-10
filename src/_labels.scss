@@ -3,7 +3,7 @@
   @include label-base();
   @include label-variant(lighten($body-font-color, 5%), $bg-color-dark);
   display: inline-block;
-background: url(../assets/images/ui/background-stripe.png);
+  //background: url(../assets/images/ui/background-stripe.png);
 
   // Label rounded
   &.label-rounded {
@@ -14,7 +14,7 @@ background: url(../assets/images/ui/background-stripe.png);
 
   // Label colors
   &.label-primary {
-    @include label-variant($light-color, $primary-color);
+    @include label-variant($secondary-color, $dark-color);
   }
 
   &.label-secondary {

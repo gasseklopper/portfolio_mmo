@@ -148,7 +148,7 @@
 .calendar .calendar-date .date-item.active {
   background: #02a7d5;
   border-color: #0293bc;
-  color: #7d97ad;
+  color: #ddd;
 }
 
 .calendar .calendar-date .date-item.badge::after {
@@ -201,7 +201,7 @@
 .calendar .calendar-range.range-end .date-item {
   background: #02a7d5;
   border-color: #0293bc;
-  color: #7d97ad;
+  color: #ddd;
 }
 
 .calendar .calendar-range .date-item {
@@ -458,7 +458,7 @@
   background: currentColor;
   border-radius: 50%;
   box-shadow: 0 -5px, 0 5px;
-  color: #7d97ad;
+  color: #ddd;
   content: "";
   height: 3px;
   position: absolute;
@@ -491,7 +491,7 @@
 .comparison-slider .comparison-label {
   background: rgba(69, 77, 93, .5);
   bottom: .8rem;
-  color: #7d97ad;
+  color: #ddd;
   padding: .2rem .4rem;
   position: absolute;
   -webkit-user-select: none;
@@ -528,7 +528,7 @@
 .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"],
 .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] {
   background: #02b3e4;
-  color: #7d97ad;
+  color: #ddd;
 }
 
 .filter .filter-tag#tag-1:checked ~ .filter-body .filter-item:not([data-tag~="tag-1"]),
@@ -718,7 +718,7 @@
 
 .parallax .parallax-front {
   align-items: center;
-  color: #7d97ad;
+  color: #ddd;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-align: center;
@@ -1015,7 +1015,7 @@
 
 .timeline .timeline-item .timeline-icon {
   border-radius: 50%;
-  color: #7d97ad;
+  color: #ddd;
   display: block;
   height: 1.2rem;
   text-align: center;
