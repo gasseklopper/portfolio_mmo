@@ -2011,8 +2011,22 @@ a.text-error:visited {
 }
 
 /*! styleguide section */
+.styleguide {
+  margin-top: 5em;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+  .styleguide {
+    margin-top: 2em;
+  }
+}
+
 .styleguide__colors {
   background: url(../assets/images/ui/background-stripe.png);
+}
+
+.styleguide__colors h2 {
+  margin-top: 3em;
 }
 
 .styleguide__primarybox {
