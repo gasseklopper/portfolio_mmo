@@ -3735,6 +3735,7 @@ a.text-error:visited {
 }
 
 .styleguide__darkbox {
+  border-radius: 10px; 
   margin: 1.2em;
   min-height: 140px;
 }
