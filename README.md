@@ -1,18 +1,4 @@
-<a href="https://picturepan2.github.io/spectre">
-  <img src="https://picturepan2.github.io/spectre/img/spectre-logo.svg" width="72" height="72">
-</a>
 
-## Spectre.css
-
-Spectre.css is a lightweight, responsive and modern CSS framework.
-
-- Lightweight (~10KB gzipped) starting point for your projects
-- Flexbox-based, responsive and mobile-friendly layout
-- Elegantly designed and developed elements and components
-
-Spectre is a side project based on years of CSS development work on a large web service project. Spectre only includes modern base styles, responsive layout system, CSS components and utilities, and it can be modified for your project with Sass/Scss compiler.
-
-Spectre.css is completely free to use. If you enjoy it, please consider [donating via Paypal](https://www.paypal.me/picturepan2) for the further development. ♥
 
 
 ## Project Portfolio Page
@@ -48,7 +34,23 @@ I have created Index.html and also this file structure
 ```
 
 - clone or download this [repo](https://github.com/gasseklopper/portfolio_mmo) and start index.html in your main browser.
+- if u want to use spectre CSS frameowrk follow the next part
+
+<a href="https://picturepan2.github.io/spectre">
+  <img src="https://picturepan2.github.io/spectre/img/spectre-logo.svg" width="72" height="72">
+</a>
+
+## Spectre.css
+
+Spectre.css is a lightweight, responsive and modern CSS framework.
+
+- Lightweight (~10KB gzipped) starting point for your projects
 - Flexbox-based, responsive and mobile-friendly layout
+- Elegantly designed and developed elements and components
+
+Spectre is a side project based on years of CSS development work on a large web service project. Spectre only includes modern base styles, responsive layout system, CSS components and utilities, and it can be modified for your project with Sass/Scss compiler.
+
+Spectre.css is completely free to use. If you enjoy it, please consider [donating via Paypal](https://www.paypal.me/picturepan2) for the further development. ♥
 
 ## Getting started with Spectre
 
