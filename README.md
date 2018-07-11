@@ -12,7 +12,7 @@ Spectre.css is a lightweight, responsive and modern CSS framework.
 
 Spectre is a side project based on years of CSS development work on a large web service project. Spectre only includes modern base styles, responsive layout system, CSS components and utilities, and it can be modified for your project with Sass/Scss compiler.
 
-Spectre.css is completely free to use. If you enjoy it, please consider [donating via Paypal](https://www.paypal.me/picturepan2) for the further development. ♥ 
+Spectre.css is completely free to use. If you enjoy it, please consider [donating via Paypal](https://www.paypal.me/picturepan2) for the further development. ♥
 
 
 ## Getting started
@@ -47,7 +47,7 @@ You can compile your custom version of Spectre.css. Read [the documentation](htt
 ### Elements
 
 - [Typography](https://picturepan2.github.io/spectre/elements.html#typography)
-- [Tables](https://picturepan2.github.io/spectre/elements.html#tables)
+- ~~[Tables](https://picturepan2.github.io/spectre/elements.html#tables)~~
 - [Buttons](https://picturepan2.github.io/spectre/elements.html#buttons)
 - [Forms](https://picturepan2.github.io/spectre/elements.html#forms)
 - [Icons](https://picturepan2.github.io/spectre/elements.html#icons) - CSS only
@@ -56,7 +56,7 @@ You can compile your custom version of Spectre.css. Read [the documentation](htt
 - [Media](https://picturepan2.github.io/spectre/elements.html#media)
 
 ### Layout
-- [Flexbox grid](https://picturepan2.github.io/spectre/layout.html#grid) 
+- [Flexbox grid](https://picturepan2.github.io/spectre/layout.html#grid)
 - [Responsive](https://picturepan2.github.io/spectre/layout.html#responsive)
 - [Navbar](https://picturepan2.github.io/spectre/layout.html#navbar)
 

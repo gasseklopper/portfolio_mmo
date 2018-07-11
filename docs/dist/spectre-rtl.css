@@ -2008,7 +2008,7 @@ a.text-error:visited {
 
 .about h1 {
   color: #81e3fe;
-  text-decoration: underline;
+  text-decoration: overline;
 }
 
 /*! styleguide section */
