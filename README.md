@@ -7,7 +7,8 @@ Created a portfolio Page for a lesson as a frontend developer course.
 I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS framework to compile my sass stylesheets core spectre.css.
 I have created Index.html and also this file structure
 
-#### Folder Structure
+## Folder Structure
+
 ```portfilio_mmo/
 
 ├── dist/
@@ -34,7 +35,7 @@ I have created Index.html and also this file structure
 ```
 - clone or download this [repo](https://github.com/gasseklopper/portfolio_mmo) and start index.html in your main browser.
 - /index.html is the html file
-- Custom Css From Markus Morley is in the compiled version of dist/spectre.css file at the end.
+- Custom Css From Markus is in the compiled version of dist/spectre.css file at the end.
 - search for ```/*! Custom Css From Markus */```
 - the source scss files are in the folder src/custommmo
 - to use spectre CSS framework follow the next parts, espcially the section Compiling custom version.
