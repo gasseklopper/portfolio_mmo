@@ -14,9 +14,28 @@ Spectre is a side project based on years of CSS development work on a large web 
 
 Spectre.css is completely free to use. If you enjoy it, please consider [donating via Paypal](https://www.paypal.me/picturepan2) for the further development. ♥
 
+
 ## Project Portfolio Page
 
-Spectre.css is a lightweight, responsive and modern CSS framework.
+Created a portfolio Page for a lesson as a frontend developer course.
+I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS framework for compiling my sass stylesheets.
+I have created Index.html.
+
+Folder
+bootstrap/
+├── css/
+│   ├── bootstrap.css
+│   ├── bootstrap.min.css
+│   ├── bootstrap-theme.css
+│   └── bootstrap-theme.min.css
+├── js/
+│   ├── bootstrap.js
+│   └── bootstrap.min.js
+└── fonts/
+    ├── glyphicons-halflings-regular.eot
+    ├── glyphicons-halflings-regular.svg
+    ├── glyphicons-halflings-regular.ttf
+    └── glyphicons-halflings-regular.woff
 
 - Lightweight (~10KB gzipped) starting point for your projects
 - Flexbox-based, responsive and mobile-friendly layout
