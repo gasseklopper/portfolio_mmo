@@ -33,14 +33,21 @@ I have created Index.html and also this file structure
 └── index.html
 
 ```
-- clone or download this [repo](https://github.com/gasseklopper/portfolio_mmo) and start index.html in your main browser.
+## Download Project
+- clone or download this [repo](https://github.com/gasseklopper/portfolio_mmo)
+## Start Project
+- start index.html in your main browser.
 - /index.html is the html file
+## Custom CSS
 - Custom Css From Markus is in the compiled version of dist/spectre.css file at the end.
 - search for ```/*! Custom Css From Markus */```
 - the source scss files are in the folder src/custommmo
+## Disabled Modules
+- Disabled some css module in spectre.css, shown later marked with ~~mark~~
+## Use spectre.css framework
 - to use spectre CSS framework follow the next parts, espcially the section Compiling custom version.
 Read [the documentation](https://picturepan2.github.io/spectre/getting-started.html#custom).
-- Disabled some css module in spectre.css, shown later marked with ~~mark~~
+
 
 <a href="https://picturepan2.github.io/spectre">
   <img src="https://picturepan2.github.io/spectre/img/spectre-logo.svg" width="72" height="72">
