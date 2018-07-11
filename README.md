@@ -25,37 +25,21 @@ I have created Index.html and also thsi file structure
 ```portfilio_mmo/
 
 ├── dist/
-
-│   ├── js/   // Javascript Folder
-
-│   ├── spectre.css  // spectre generated stylesheet with custommmo css styles
-
+│   ├── js/   --> Javascript Folder
+│   ├── spectre.css  --> spectre generated stylesheet with custommmo css styles
 │   └── spectre-icons.css
-
 ├── src/
-
 │   ├── custommmo/
-
 │   │   ├── _about.scss  
-
 │   │   ├── _featured.scss  
-
 │   │   ├── _hero.scss
-
 │   │   ├── _navbar.scss
-
 │   │   ├── _post.scss
-
 │   │   ├── _styleguide.scss
-
 │   │   └── _variables.scss
-
-│   ├── spectre.scss      //import spectre css modules basic Framework also "_custommmo.scss"
-
-│   └── _custommmo.scss  //import scss files from custommmo folder
-
+│   ├── spectre.scss      -->  import spectre css modules basic Framework also "_custommmo.scss"
+│   └── _custommmo.scss  -->  import scss files from custommmo folder
 ├── assets/
-
 │   ├── images/
 │   │     └── ui/
 │   └── brefing/
