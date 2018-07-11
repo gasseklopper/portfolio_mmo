@@ -18,14 +18,14 @@ Spectre.css is completely free to use. If you enjoy it, please consider [donatin
 ## Project Portfolio Page
 
 Created a portfolio Page for a lesson as a frontend developer course.
-I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS framework for compiling my sass stylesheets.
-I have created Index.html and also thsi file structure
+I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS framework to compile my sass stylesheets core spectre.css.
+I have created Index.html and also this file structure
 
 #### Folder Structure
 ```portfilio_mmo/
 
 ├── dist/
-│   ├── js/   --> Javascript Folder
+│   ├── js/   
 │   ├── spectre.css  --> spectre generated stylesheet with custommmo css styles
 │   └── spectre-icons.css
 ├── src/
@@ -47,16 +47,10 @@ I have created Index.html and also thsi file structure
 
 ```
 
-- Lightweight (~10KB gzipped) starting point for your projects
+- clone or download this [repo](https://github.com/gasseklopper/portfolio_mmo) and start index.html in your main browser.
 - Flexbox-based, responsive and mobile-friendly layout
-- Elegantly designed and developed elements and components
 
-Spectre is a side project based on years of CSS development work on a large web service project. Spectre only includes modern base styles, responsive layout system, CSS components and utilities, and it can be modified for your project with Sass/Scss compiler.
-
-Spectre.css is completely free to use. If you enjoy it, please consider [donating via Paypal](https://www.paypal.me/picturepan2) for the further development. ♥
-
-
-## Getting started
+## Getting started with Spectre
 
 There are 5 ways to get started with Spectre CSS framework in your projects. You can either manually install or use NPM, Yarn and Bower.
 
