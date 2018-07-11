@@ -12,7 +12,8 @@ I have created Index.html and also this file structure
 ```portfilio_mmo/
 
 ├── dist/
-│   ├── js/   
+│   ├── js/
+│   │   └── smoothscroll.min.js  --> added a javascript libary for links/anchors smooth scrolling
 │   ├── spectre.css  --> spectre generated stylesheet with custommmo css styles used by index.html
 │   └── spectre-icons.css
 ├── src/
