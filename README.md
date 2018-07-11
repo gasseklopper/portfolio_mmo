@@ -14,8 +14,10 @@ I have created Index.html and also this file structure
 ├── dist/
 │   ├── js/
 │   │   └── smoothscroll.min.js  --> added a javascript libary for links/anchors smooth scrolling
+│   │
 │   ├── spectre.css  --> spectre generated stylesheet with custommmo css styles used by index.html
 │   └── spectre-icons.css
+│
 ├── src/
 │   ├── custommmo/
 │   │   ├── _about.scss  
@@ -23,14 +25,17 @@ I have created Index.html and also this file structure
 │   │   ├── _hero.scss
 │   │   ├── _navbar.scss
 │   │   ├── _post.scss
-│   │   ├── _styleguide.scss
-│   │   └── _variables.scss
+│   │   └── _styleguide.scss
+│   │
 │   ├── spectre.scss      -->  import spectre css modules basic Framework also "_custommmo.scss"
 │   └── _custommmo.scss  -->  import scss files from custommmo folder
+│
 ├── assets/
 │   ├── images/
 │   │     └── ui/
+│   │
 │   └── brefing/
+│
 └── index.html
 
 ```
