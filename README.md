@@ -34,14 +34,14 @@ I have created Index.html and also this file structure
 
 ```
 ## Download Project
-- clone or download this [repo](https://github.com/gasseklopper/portfolio_mmo)
+- clone or download this [portfolio_mmo](https://github.com/gasseklopper/portfolio_mmo)
 ## Start Project
-- start index.html in your main browser.
-- /index.html is the html file
+- start ```/index.html``` in your main browser.
 ## Custom CSS
 - Custom Css From Markus is in the compiled version of dist/spectre.css file at the end.
 - search for ```/*! Custom Css From Markus */```
-- the source scss files are in the folder src/custommmo
+- ```/src/_custommmo.scss``` handles the custommo modules
+- the source scss files are in the folder /src/custommmo
 ## Disabled Modules
 - Disabled some css module in spectre.css, shown later marked with ~~mark~~
 ## Use spectre.css framework
