@@ -21,12 +21,12 @@ Created a portfolio Page for a lesson as a frontend developer course.
 I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS framework for compiling my sass stylesheets.
 I have created Index.html.
 
-Folder Structure
+#### Folder Structure
 portfilio_mmo/
 
 ├── dist/
 
-│   ├── spectre.css
+│   ├── spectre.css  // spectre generated stylesheet with custommmo css styles
 
 │   └── spectre-icons.css
 
@@ -34,29 +34,31 @@ portfilio_mmo/
 
 │   ├── custommmo/
 
-│       ├── _about.scss
+│   │   ├── _about.scss  
 
-│       ├── _featured.scss
+│   │   ├── _featured.scss  
 
-│       ├── _hero.scss
+│   │   ├── _hero.scss
 
-│       ├── _navbar.scss
+│   │   ├── _navbar.scss
 
-│       ├── _post.scss
-│       ├── _styleguide.scss
-│       ├── _variables.scss
+│   │   ├── _post.scss
 
-│   └── _custommmo.scss
+│   │   ├── _styleguide.scss
+
+│   │   └── _variables.scss
+
+│   ├── spectre.scss      //import spectre css modules basic Framework also "_custommmo.scss"
+
+│   └── _custommmo.scss  //import custom css
 
 ├── assets/
 
-│   ├── glyphicons-halflings-regular.eot
+│   ├── images/
 
-│   ├── glyphicons-halflings-regular.svg
+│   │     └── ui/
 
-│   ├── glyphicons-halflings-regular.ttf
-
-│   └── glyphicons-halflings-regular.woff
+│   └── brefing/
 
 └── index.html
 
