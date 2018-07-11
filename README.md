@@ -4,7 +4,7 @@
 ## Project Portfolio Page
 
 Created a portfolio Page for a lesson as a frontend developer course.
-I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS framework to compile my sass stylesheets core spectre.css.
+I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS framework to compile my sass stylesheets to core spectre.css.
 I have created Index.html and also this file structure
 
 ## Folder Structure
@@ -41,9 +41,9 @@ I have created Index.html and also this file structure
 - Custom Css From Markus is in the compiled version of dist/spectre.css file at the end.
 - search for ```/*! Custom Css From Markus */```
 - ```/src/_custommmo.scss``` handles the custommo modules
-- the source scss files are in the folder /src/custommmo
+- the source scss files are in the folder ```/src/custommmo```
 ## Disabled Modules
-- Disabled some css module in spectre.css, shown later marked with ~~mark~~
+- Disabled css module in spectre.css, shown later marked with ~~mark~~
 ## Use spectre.css framework
 - to use spectre CSS framework follow the next parts, espcially the section Compiling custom version.
 Read [the documentation](https://picturepan2.github.io/spectre/getting-started.html#custom).
