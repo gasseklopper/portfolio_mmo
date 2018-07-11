@@ -32,8 +32,9 @@ I have created Index.html and also this file structure
 └── index.html
 
 ```
-
-
+ - Custom Css From Markus Morley is in the compiled version of dist/spectre.css file at the end.
+- search for ```" /*! Custom Css From Markus Morley */ "
+*/```
 
 
 
