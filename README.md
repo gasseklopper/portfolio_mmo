@@ -21,35 +21,44 @@ Created a portfolio Page for a lesson as a frontend developer course.
 I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS framework for compiling my sass stylesheets.
 I have created Index.html.
 
-Folder
-bootstrap/
+Folder Structure
+portfilio_mmo/
 
+├── dist/
 
-├── css/
+│   ├── spectre.css
 
-│   ├── bootstrap.css
+│   └── spectre-icons.css
 
-│   ├── bootstrap.min.css
+├── src/
 
-│   ├── bootstrap-theme.css
+│   ├── custommmo/
 
-│   └── bootstrap-theme.min.css
+│       ├── _about.scss
 
-├── js/
+│       ├── _featured.scss
 
-│   ├── bootstrap.js
+│       ├── _hero.scss
 
-│   └── bootstrap.min.js
+│       ├── _navbar.scss
 
-└── fonts/
+│       ├── _post.scss
+│       ├── _styleguide.scss
+│       ├── _variables.scss
 
-    ├── glyphicons-halflings-regular.eot
+│   └── _custommmo.scss
 
-    ├── glyphicons-halflings-regular.svg
+├── assets/
 
-    ├── glyphicons-halflings-regular.ttf
+│   ├── glyphicons-halflings-regular.eot
 
-    └── glyphicons-halflings-regular.woff
+│   ├── glyphicons-halflings-regular.svg
+
+│   ├── glyphicons-halflings-regular.ttf
+
+│   └── glyphicons-halflings-regular.woff
+
+└── index.html
 
 
 
