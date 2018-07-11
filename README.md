@@ -22,7 +22,7 @@ I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS
 I have created Index.html.
 
 Folder
-`bootstrap/
+bootstrap/
 
 
 ├── css/
@@ -62,7 +62,7 @@ Folder
     ├── glyphicons-halflings-regular.ttf
 
 
-    └── glyphicons-halflings-regular.woff`
+    └── glyphicons-halflings-regular.woff
 
 
 
