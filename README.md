@@ -22,7 +22,7 @@ I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS
 I have created Index.html.
 
 Folder
-bootstrap/
+`bootstrap/
 ├── css/
 │   ├── bootstrap.css
 │   ├── bootstrap.min.css
@@ -35,7 +35,7 @@ bootstrap/
     ├── glyphicons-halflings-regular.eot
     ├── glyphicons-halflings-regular.svg
     ├── glyphicons-halflings-regular.ttf
-    └── glyphicons-halflings-regular.woff
+    └── glyphicons-halflings-regular.woff`
 
 - Lightweight (~10KB gzipped) starting point for your projects
 - Flexbox-based, responsive and mobile-friendly layout
