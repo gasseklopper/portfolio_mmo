@@ -34,7 +34,8 @@ I have created Index.html and also this file structure
 ```
 
 - clone or download this [repo](https://github.com/gasseklopper/portfolio_mmo) and start index.html in your main browser.
-- if u want to use spectre CSS frameowrk follow the next part
+- to use spectre CSS frameowrk follow the next parts espcially the section Compiling custom version. Read [the documentation](https://picturepan2.github.io/spectre/getting-started.html#custom).
+- Disabled some css module in spectre.css shown later marked with ~~mark~~
 
 <a href="https://picturepan2.github.io/spectre">
   <img src="https://picturepan2.github.io/spectre/img/spectre-logo.svg" width="72" height="72">
