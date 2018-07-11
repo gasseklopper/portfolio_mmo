@@ -19,12 +19,14 @@ Spectre.css is completely free to use. If you enjoy it, please consider [donatin
 
 Created a portfolio Page for a lesson as a frontend developer course.
 I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS framework for compiling my sass stylesheets.
-I have created Index.html.
+I have created Index.html and also thsi file structure
 
 #### Folder Structure
-portfilio_mmo/
+```portfilio_mmo/
 
 ├── dist/
+
+│   ├── js/   // Javascript Folder
 
 │   ├── spectre.css  // spectre generated stylesheet with custommmo css styles
 
@@ -50,19 +52,16 @@ portfilio_mmo/
 
 │   ├── spectre.scss      //import spectre css modules basic Framework also "_custommmo.scss"
 
-│   └── _custommmo.scss  //import custom css
+│   └── _custommmo.scss  //import scss files from custommmo folder
 
 ├── assets/
 
 │   ├── images/
-
 │   │     └── ui/
-
 │   └── brefing/
-
 └── index.html
 
-
+```
 
 - Lightweight (~10KB gzipped) starting point for your projects
 - Flexbox-based, responsive and mobile-friendly layout
