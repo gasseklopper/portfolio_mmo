@@ -12,7 +12,7 @@ I have created Index.html and also this file structure
 
 ├── dist/
 │   ├── js/   
-│   ├── spectre.css  --> spectre generated stylesheet with custommmo css styles
+│   ├── spectre.css  --> spectre generated stylesheet with custommmo css styles used by index.html
 │   └── spectre-icons.css
 ├── src/
 │   ├── custommmo/
