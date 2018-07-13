@@ -1,5 +1,6 @@
 .idea/
 node_modules/
+docs/
 .*
 !.csscomb.json
 !.gitignore

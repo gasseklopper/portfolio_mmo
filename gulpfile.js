@@ -32,36 +32,6 @@ gulp.task('build', function() {
     .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('docs', function() {
-  gulp.src(paths.doc)
-    .pipe(sass({outputStyle: 'compact', precision: 10})
-      .on('error', sass.logError)
-    )
-    .pipe(autoprefixer())
-    .pipe(csscomb())
-    .pipe(gulp.dest('./docs/dist'))
-    .pipe(cleancss())
-    .pipe(rename({
-      suffix: '.min'
-    }))
-    .pipe(gulp.dest('./docs/dist'));
-  gulp.src(paths.source)
-    .pipe(sass({outputStyle: 'compact', precision: 10})
-      .on('error', sass.logError)
-    )
-    .pipe(autoprefixer())
-    .pipe(csscomb())
-    .pipe(gulp.dest('./docs/dist'))
-    .pipe(cleancss())
-    .pipe(rename({
-      suffix: '.min'
-    }))
-    .pipe(gulp.dest('./docs/dist'));
-  gulp.src('docs/src/!(_)*.pug')
-    .pipe(pug({
-      pretty: true
-    }))
-    .pipe(gulp.dest('./docs/'));
-});
+
 
 gulp.task('default', ['build']);
