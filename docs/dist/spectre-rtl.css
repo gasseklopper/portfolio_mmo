@@ -1930,13 +1930,22 @@ a.text-error:visited {
 }
 
 /*! fetured section */
+.featured__headline {
+  padding: 3em 0 1em;
+}
+
 .featured__headline h2 {
   margin: 0; 
   padding: 0;
 }
 
 .featured h4 {
-  padding-top: .2em;
+  margin-bottom: .0em; 
+  padding-top: .3em;
+}
+
+.featured h5 {
+  padding-top: 0;
 }
 
 .featured figure {
@@ -1984,22 +1993,7 @@ a.text-error:visited {
   line-height: 1.6em;
 }
 
-.box__shadow {
-  background: url(../assets/images/ui/background-stripe.png); 
-  height: 100%;
-  padding: 0 1em 1em 0;
-  width: 100%;
-}
-
-.box__shadow img {
-  border-radius: 8px 0 0 0;
-}
-
 /*! about section */
-.about__background {
-  background: url(../assets/images/ui/background-stripe.png);
-}
-
 .about h1,
 .about p {
   background-color: #454d5d; 
@@ -2012,46 +2006,76 @@ a.text-error:visited {
 }
 
 /*! styleguide section */
-.styleguide {
-  margin-top: 5em;
+.styleguide__reset {
+  padding: 1em 0 3em;
 }
 
-@media (min-width: 400px) and (max-width: 800px) {
-  .styleguide {
-    margin-top: 2em;
-  }
+.styleguide__reset h1 {
+  margin: 0; 
+  padding: 0;
+}
+
+.styleguide__reset h2 {
+  margin: 0; 
+  padding: 0;
+}
+
+.styleguide__reset h3 {
+  margin: 0; 
+  padding: 0;
+}
+
+.styleguide__reset h4 {
+  margin: 0; 
+  padding: 0;
+}
+
+.styleguide__reset h5 {
+  margin: 0; 
+  padding: 0;
+}
+
+.styleguide__reset h6 {
+  margin: 0; 
+  padding: 0;
+}
+
+.styleguide__headline {
+  padding: 3em 0 1em;
 }
 
 .styleguide__headline h2 {
-  margin-top: .4em;
+  margin: .21em 0 .21em; 
+  padding: 0;
 }
 
-@media (min-width: 400px) and (max-width: 800px) {
-  .styleguide__headline h2 {
-    margin-top: 1.2em;
+.styleguide__colors h2 {
+  margin: .21em 0 1em; 
+  padding: .3em;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .styleguide__colors h2 {
+    margin: 1.21em 0 1em;
   }
 }
 
-.styleguide__colors {
-  background: url(../assets/images/ui/background-stripe.png);
-}
-
-.styleguide__primarybox {
+.styleguide__colorbox {
   border-radius: .8em; 
   margin: 1.2em;
   min-height: 140px;
 }
 
-.styleguide__darkbox {
-  border-radius: .8em; 
-  margin: 1.2em;
-  min-height: 140px;
+/*! box elemt for boxes */
+.box__shadow {
+  background: url(../assets/images/ui/background-stripe.png); 
+  height: 100%;
+  padding: 0 1em 1em 0;
+  width: 100%;
 }
 
-.styleguide__secondarybox {
-  border-radius: .8em; 
-  margin: 1.2em;
-  min-height: 140px;
+.box__shadow img {
+  border-radius: 8px 0 0 0;
 }
 
 /*! Spectre.css Icons v0.5.3 | MIT License | github.com/picturepan2/spectre */
