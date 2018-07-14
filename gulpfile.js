@@ -8,13 +8,10 @@ var pug = require('gulp-pug');
 
 var paths = {
   source: './src/*.scss',
-  doc: './docs/src/scss/*.scss'
 };
 
 gulp.task('watch', function() {
   gulp.watch('./**/*.scss', ['build']);
-  gulp.watch('./**/*.scss', ['docs']);
-  gulp.watch('./**/*.pug', ['docs']);
 });
 
 gulp.task('build', function() {

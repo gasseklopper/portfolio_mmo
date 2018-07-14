@@ -1908,6 +1908,32 @@ a.text-error:visited {
   -ms-flex-align: center;
 }
 
+@media screen and (max-width: 800px) {
+  .navbar__section {
+    align-items: center;
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0; 
+    -ms-flex-align: center;
+  }
+  .navbar__section:not(:first-child):last-child {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  .navbar__center {
+    align-items: center;
+    display: flex;
+    display: -ms-flexbox;
+    display: none;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto; 
+    -ms-flex-align: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
 /*! Hero section */
 .hero__headline {
   margin: 1em 0;
@@ -2075,4 +2101,99 @@ a.text-error:visited {
 
 .box__shadow img {
   border-radius: 8px 0 0 0;
+}
+
+/*! mobile menu*/
+.mobile-menu {
+  background: #454d5d;
+  display: block;
+  font-weight: 400;
+  line-height: 1.6em;
+  margin: 0 auto; /*Strip the ul of padding and list styling*/ /*Create a horizontal list with spacing*/ /*Style for menu links*/ /*Hover state for top level links*/ /*Style 'show menu' label button and hide it by default*/ /*Hide checkbox*/ /*Show menu when invisible checkbox is checked*/ /*Responsive Styles*/ 
+  position: sticky;
+  position: -webkit-sticky;
+  text-align: center;
+  width: 100%;
+}
+
+.mobile-menu ul {
+  background: #454d5d; 
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.mobile-menu li {
+  display: inline-block; /*float: left; margin-right: 1px;*/
+}
+
+.mobile-menu li a {
+  color: #81e3fe;
+  display: block;
+  margin-left: -5px;
+  min-width: 140px;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .4s ease 0s;
+}
+
+.mobile-menu li:hover a {
+  background-color: #7d97ad; 
+  color: #454d5d;
+}
+
+.mobile-menu .show-menu {
+  background: #8aa8bd;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mobile-menu .show-menu span {
+  padding-left: 35px;
+}
+
+.mobile-menu input[type=checkbox] {
+  display: none;
+}
+
+.mobile-menu input[type=checkbox]:checked ~ #menu {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .mobile-menu {
+    /*Make dropdown links appear inline*/ /*Create vertical spacing*/ /*Make all menu links full width*/ /*Display 'show menu' link*/
+  }
+  .mobile-menu .lines {
+    border-bottom: 15px double #f8f8f8;
+    border-top: 5px solid #f8f8f8;
+    content: "";
+    float: right; 
+    height: 5px;
+    padding-right: 15px;
+    width: 20px;
+  }
+  .mobile-menu ul {
+    display: none; 
+    position: static;
+  }
+  .mobile-menu li {
+    margin-bottom: 1px;
+  }
+  .mobile-menu ul li,
+  .mobile-menu li a {
+    width: 100%;
+  }
+  .mobile-menu .show-menu {
+    display: block;
+  }
 }

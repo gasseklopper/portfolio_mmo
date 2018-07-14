@@ -1,0 +1,107 @@
+
+
+.mobile-menu {
+  display:block;
+  width:100%;
+	background: $dark-color;;
+	line-height: 1.6em;
+	font-weight: 400;
+	text-align:center;
+	position: sticky;
+  margin:0 auto;
+
+/*Strip the ul of padding and list styling*/
+	ul {
+	list-style-type:none;
+  margin: 0 auto;
+  padding-left:0;
+  text-align:center;
+  width:100%;
+  //position: absolute;
+  background: $dark-color;
+	}
+
+/*Create a horizontal list with spacing*/
+	li {
+	display:inline-block;
+	/*float: left;
+	margin-right: 1px;*/
+	}
+
+/*Style for menu links*/
+ li a {
+	display:block;
+	min-width:140px;
+	text-align: center;
+	color: $primary-color-light;
+  text-transform:uppercase;
+	//background: $dark-color;
+	text-decoration: none;
+  margin-left:-5px;
+  padding: 10px 0;
+		transition: all 0.4s ease 0s;
+}
+
+/*Hover state for top level links*/
+ li:hover a {
+	color: $dark-color;
+  background-color:$secondary-color;
+}
+/*Style 'show menu' label button and hide it by default*/
+& .show-menu {
+	text-decoration: none;
+	color: #fff;
+	background: #8aa8bd;
+	text-align: center;
+	padding: 10px 15px;
+	display: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+& .show-menu span{
+   padding-left: 35px;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 800px){
+   & .lines {
+    border-bottom: 15px double #f8f8f8;
+    border-top: 5px solid #f8f8f8;
+    content:"";
+    height: 5px;
+    width:20px;
+    padding-right:15px;
+  float: right;
+}
+	/*Make dropdown links appear inline*/
+	ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	& .show-menu {
+		display:block;
+	}
+}
+
+}
