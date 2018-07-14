@@ -7,6 +7,32 @@ Created a portfolio Page for a lesson as a frontend developer course.
 I used <a href="https://picturepan2.github.io/spectre">Spectre.css</a> as my CSS framework to compile my sass stylesheets to core spectre.css.
 I have created Index.html and also this file structure
 
+
+## Page Layout
+
+```index.html
+________________________________________________
+    navbar: mobile-menu
+
+________________________________________________
+    section: about
+
+________________________________________________
+    section: hero
+
+________________________________________________
+    section: featured
+
+________________________________________________
+    section: styleguide
+
+________________________________________________
+    section: post
+
+________________________________________________
+    footer: footer
+```
+
 ## Folder Structure
 
 ```portfilio_mmo/
@@ -26,6 +52,7 @@ I have created Index.html and also this file structure
 │   │   ├── _navbar.scss
 │   │   ├── _post.scss
 │   │   ├── _box.scss
+│   │   ├── _mobile-menu.scss
 │   │   └── _styleguide.scss
 │   │
 │   ├── spectre.scss      -->  import spectre css modules basic Framework also "_custommmo.scss"

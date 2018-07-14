@@ -1,102 +1,83 @@
-
-
 .mobile-menu {
-  display:block;
-  width:100%;
-	background: $dark-color;;
+	display: block;
+	width: 100%;
 	line-height: 1.6em;
 	font-weight: 400;
-	text-align:center;
-	position: sticky;
-  margin:0 auto;
+	text-align: center;
+	margin: 0 auto;
 
-/*Strip the ul of padding and list styling*/
 	ul {
-	list-style-type:none;
-  margin: 0 auto;
-  padding-left:0;
-  text-align:center;
-  width:100%;
-  //position: absolute;
-  background: $dark-color;
+		list-style-type: none;
+		margin: 0 auto;
+		padding-left: 0;
+		text-align: center;
+		width: 100%;
+		background: $dark-color;
 	}
 
-/*Create a horizontal list with spacing*/
-	li {
-	display:inline-block;
-	/*float: left;
-	margin-right: 1px;*/
+/*Create a horizontal list */
+ li {
+		display: inline-block;
 	}
 
 /*Style for menu links*/
- li a {
-	display:block;
-	min-width:140px;
-	text-align: center;
-	color: $primary-color-light;
-  text-transform:uppercase;
-	//background: $dark-color;
-	text-decoration: none;
-  margin-left:-5px;
-  padding: 10px 0;
+	li a {
+		display: block;
+		min-width: 100px;
+		text-align: center;
+		color: $primary-color-light;
+		background: $dark-color;
+		text-decoration: none;
+		margin-left: -5px;
+		padding: 10px 0;
 		transition: all 0.4s ease 0s;
-}
+	}
 
 /*Hover state for top level links*/
- li:hover a {
-	color: $dark-color;
-  background-color:$secondary-color;
-}
-/*Style 'show menu' label button and hide it by default*/
-&__show-menu {
-	text-decoration: none;
-	color: $primary-color;
-	//background: #8aa8bd;
-	text-align: center;
-	padding: 10px 15px;
-	display: none;
-  cursor: pointer;
-  text-transform: uppercase;
-}
+	li:hover a {
+		color: $dark-color;
+		background-color: $secondary-color;
+	}
 
-&__show-menu span{
-   padding-left: 35px;
-}
+	&__show-menu {
+		text-decoration: none;
+		text-align: center;
+		padding: 10px 15px;
+		display: none;
+		cursor: pointer;
+		text-transform: uppercase;
+	}
 
-/*Hide checkbox*/
-input[type=checkbox]{
-    display: none;
-}
+	/*Hide checkbox*/
+	input[type=checkbox]{
+		display: none;
+	}
 
-/*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
-    display: block;
-}
+	/*Show menu when invisible checkbox is checked*/
+	input[type=checkbox]:checked ~ .mobile-menu__menu {
+		display: block;
+	}
 
 /*Responsive Styles*/
 
 @media screen and (max-width : 800px){
-   &__lines {
-
-  	float: right;
-}
-	/*Make dropdown links appear inline*/
 	ul {
-		//position: static;
+		background: $secondary-color;
+		position: static;
 		display: none;
+		width: 40%;
 	}
-	/*Create vertical spacing*/
+
 	li {
 		margin-bottom: 1px;
 	}
-	/*Make all menu links full width*/
+
 	ul li, li a {
 		width: 100%;
 	}
-	/*Display 'show menu' link*/
+
 	&__show-menu {
-		display:block;
+		display: block;
 	}
 }
-
 }

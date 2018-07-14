@@ -16,25 +16,22 @@
 </head>
 	<body>
 
-<nav class="mobile-menu">
-	<label for="show-menu" class="mobile-menu__show-menu">
-		<span>Navigation</span>
-		<div class="mobile-menu__lines">
-			<i class="icon text-gray icon-photo"></i>
-		</div>
-	</label>
-	<input type="checkbox" id="show-menu">
-		<ul id="mobile-menu__menu">
-		<li><a href="#">Home</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Portfolio</a></li>
-		<li><a href="#">News</a></li>
-		<li><a href="#">Contact</a></li>
+<!-- mobile-menu Fullwidth no container wrap-->
+
+
+
+<nav class="mobile-menu" id="home-link">
+<label for="mobile-menu__show-menu" class="mobile-menu__show-menu"><i class="icon text-dark icon-menu"></i></label>
+	<input type="checkbox" id="mobile-menu__show-menu">
+		<ul class="mobile-menu__menu">
+		<li><a href="#featured-link">Features</a></li>
+		<li><a href="#styleguide-link">Styleguide</a></li>
+		<li><a href="#post-link">Blog Post</a></li>
+		<li><a href="#footer-link">Footer</a></li>
 	</ul>
 </nav>
-
 <!-- about Fullwidth no container wrap-->
-		<div class="container grid-lg">
+		<div class="container grid-lg p-2">
 			<section class="about text-center text-gray p-2">
 				<div class="about__background box__shadow">
 					<div class="columns">
@@ -214,7 +211,7 @@
 			</section><!-- end Styleguide-->
 		</div><!-- end Container-->
 <!-- Post -->
-		<div class="container grid-xl">
+		<div class="container grid-xl" id="post-link">
 			<div class="post">
 				<div class="colums">
 					<div class="column col-12">
@@ -307,10 +304,10 @@
 		</div><!-- end container -->
 <!-- Navigation based on spectre navbar -->
 		<div class="container grid-lg">
-			<footer class="navbar">
+			<footer class="navbar" id="footer-link">
 				<!-- Navigation leftside -->
 				<div class="navbar__section">
-					<a href="#featured-link" class="btn btn-link text-primary">Feature</a>
+					<a href="#home-link" class="btn btn-link text-primary">Home</a>
 					<a href="#styleguide-link" class="btn btn-link text-primary">Styleguide</a>
 				</div>
 				<!-- Navigation center -->

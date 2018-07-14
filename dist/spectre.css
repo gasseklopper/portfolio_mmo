@@ -2105,13 +2105,10 @@ a.text-error:visited {
 
 /*! mobile menu*/
 .mobile-menu {
-  background: #454d5d;
   display: block;
   font-weight: 400;
   line-height: 1.6em;
-  margin: 0 auto; /*Strip the ul of padding and list styling*/ /*Create a horizontal list with spacing*/ /*Style for menu links*/ /*Hover state for top level links*/ /*Style 'show menu' label button and hide it by default*/ /*Hide checkbox*/ /*Show menu when invisible checkbox is checked*/ /*Responsive Styles*/ 
-  position: sticky;
-  position: -webkit-sticky;
+  margin: 0 auto; /*Create a horizontal list */ /*Style for menu links*/ /*Hover state for top level links*/ /*Hide checkbox*/ /*Show menu when invisible checkbox is checked*/ /*Responsive Styles*/ 
   text-align: center;
   width: 100%;
 }
@@ -2126,18 +2123,18 @@ a.text-error:visited {
 }
 
 .mobile-menu li {
-  display: inline-block; /*float: left; margin-right: 1px;*/
+  display: inline-block;
 }
 
 .mobile-menu li a {
+  background: #454d5d;
   color: #81e3fe;
   display: block;
   margin-left: -5px;
-  min-width: 140px;
+  min-width: 100px;
   padding: 10px 0;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
   transition: all .4s ease 0s;
 }
 
@@ -2147,7 +2144,6 @@ a.text-error:visited {
 }
 
 .mobile-menu__show-menu {
-  color: #02b3e4;
   cursor: pointer;
   display: none;
   padding: 10px 15px;
@@ -2156,27 +2152,20 @@ a.text-error:visited {
   text-transform: uppercase;
 }
 
-.mobile-menu__show-menu span {
-  padding-left: 35px;
-}
-
 .mobile-menu input[type=checkbox] {
   display: none;
 }
 
-.mobile-menu input[type=checkbox]:checked ~ #menu {
+.mobile-menu input[type=checkbox]:checked ~ .mobile-menu__menu {
   display: block;
 }
 
 @media screen and (max-width: 800px) {
-  .mobile-menu {
-    /*Make dropdown links appear inline*/ /*Create vertical spacing*/ /*Make all menu links full width*/ /*Display 'show menu' link*/
-  }
-  .mobile-menu__lines {
-    float: right;
-  }
   .mobile-menu ul {
+    background: #7d97ad;
     display: none;
+    position: static;
+    width: 40%;
   }
   .mobile-menu li {
     margin-bottom: 1px;
