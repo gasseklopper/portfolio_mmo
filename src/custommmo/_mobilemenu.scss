@@ -15,12 +15,10 @@
 		background: $dark-color;
 	}
 
-/*Create a horizontal list */
  li {
 		display: inline-block;
 	}
 
-/*Style for menu links*/
 	li a {
 		display: block;
 		min-width: 100px;
@@ -33,7 +31,6 @@
 		transition: all 0.4s ease 0s;
 	}
 
-/*Hover state for top level links*/
 	li:hover a {
 		color: $dark-color;
 		background-color: $secondary-color;
@@ -48,12 +45,10 @@
 		text-transform: uppercase;
 	}
 
-	/*Hide checkbox*/
 	input[type=checkbox]{
 		display: none;
 	}
 
-	/*Show menu when invisible checkbox is checked*/
 	input[type=checkbox]:checked ~ .mobile-menu__menu {
 		display: block;
 	}

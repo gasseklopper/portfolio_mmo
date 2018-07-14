@@ -22,23 +22,22 @@
 		flex: 0 0 auto;
 	}
 	@media screen and (max-width : 800px){
-			&__section {
-				align-items: center;
-				display: flex;
-				flex: 1 0 0;
+		&__section {
+			align-items: center;
+			display: flex;
+			flex: 1 0 0;
 
-				&:not(:first-child):last-child {
-					justify-content: flex-end;
-				}
-			}
-
-			&__center {
-				display: none;
+			&:not(:first-child):last-child {
 				justify-content: flex-end;
-				align-items: center;
-				display: flex;
-				flex: 0 0 auto;
 			}
-	}
+		}
 
+		&__center {
+			display: none;
+			justify-content: flex-end;
+			align-items: center;
+			display: flex;
+			flex: 0 0 auto;
+		}
+	}
 }

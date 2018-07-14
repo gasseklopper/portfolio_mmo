@@ -2108,7 +2108,7 @@ a.text-error:visited {
   display: block;
   font-weight: 400;
   line-height: 1.6em;
-  margin: 0 auto; /*Create a horizontal list */ /*Style for menu links*/ /*Hover state for top level links*/ /*Hide checkbox*/ /*Show menu when invisible checkbox is checked*/ /*Responsive Styles*/ 
+  margin: 0 auto; /*Responsive Styles*/ 
   text-align: center;
   width: 100%;
 }
