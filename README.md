@@ -81,6 +81,8 @@ ________________________________________________
 ## Use spectre.css framework
 - to use spectre CSS framework follow the next parts, espcially the section Compiling custom version.
 Read [the documentation](https://picturepan2.github.io/spectre/getting-started.html#custom).
+## JS
+- added [smoothscroll](https://github.com/alicelieutier/smoothScroll/blob/master/smoothscroll.js)
 
 
 <a href="https://picturepan2.github.io/spectre">
