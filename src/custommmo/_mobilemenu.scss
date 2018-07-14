@@ -48,10 +48,10 @@
   background-color:$secondary-color;
 }
 /*Style 'show menu' label button and hide it by default*/
-& .show-menu {
+&__show-menu {
 	text-decoration: none;
-	color: #fff;
-	background: #8aa8bd;
+	color: $primary-color;
+	//background: #8aa8bd;
 	text-align: center;
 	padding: 10px 15px;
 	display: none;
@@ -59,7 +59,7 @@
   text-transform: uppercase;
 }
 
-& .show-menu span{
+&__show-menu span{
    padding-left: 35px;
 }
 
@@ -76,18 +76,13 @@ input[type=checkbox]:checked ~ #menu{
 /*Responsive Styles*/
 
 @media screen and (max-width : 800px){
-   & .lines {
-    border-bottom: 15px double #f8f8f8;
-    border-top: 5px solid #f8f8f8;
-    content:"";
-    height: 5px;
-    width:20px;
-    padding-right:15px;
-  float: right;
+   &__lines {
+
+  	float: right;
 }
 	/*Make dropdown links appear inline*/
 	ul {
-		position: static;
+		//position: static;
 		display: none;
 	}
 	/*Create vertical spacing*/
@@ -99,7 +94,7 @@ input[type=checkbox]:checked ~ #menu{
 		width: 100%;
 	}
 	/*Display 'show menu' link*/
-	& .show-menu {
+	&__show-menu {
 		display:block;
 	}
 }

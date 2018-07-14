@@ -2146,9 +2146,8 @@ a.text-error:visited {
   color: #454d5d;
 }
 
-.mobile-menu .show-menu {
-  background: #8aa8bd;
-  color: #fff;
+.mobile-menu__show-menu {
+  color: #02b3e4;
   cursor: pointer;
   display: none;
   padding: 10px 15px;
@@ -2157,7 +2156,7 @@ a.text-error:visited {
   text-transform: uppercase;
 }
 
-.mobile-menu .show-menu span {
+.mobile-menu__show-menu span {
   padding-left: 35px;
 }
 
@@ -2173,18 +2172,11 @@ a.text-error:visited {
   .mobile-menu {
     /*Make dropdown links appear inline*/ /*Create vertical spacing*/ /*Make all menu links full width*/ /*Display 'show menu' link*/
   }
-  .mobile-menu .lines {
-    border-bottom: 15px double #f8f8f8;
-    border-top: 5px solid #f8f8f8;
-    content: "";
-    float: right; 
-    height: 5px;
-    padding-right: 15px;
-    width: 20px;
+  .mobile-menu__lines {
+    float: right;
   }
   .mobile-menu ul {
-    display: none; 
-    position: static;
+    display: none;
   }
   .mobile-menu li {
     margin-bottom: 1px;
@@ -2193,7 +2185,7 @@ a.text-error:visited {
   .mobile-menu li a {
     width: 100%;
   }
-  .mobile-menu .show-menu {
+  .mobile-menu__show-menu {
     display: block;
   }
 }

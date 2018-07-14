@@ -17,36 +17,22 @@
 	<body>
 
 <nav class="mobile-menu">
-<label for="show-menu" class="show-menu"><span>Markus Morley</span><div class="lines"></div></label>
+	<label for="show-menu" class="mobile-menu__show-menu">
+		<span>Navigation</span>
+		<div class="mobile-menu__lines">
+			<i class="icon text-gray icon-photo"></i>
+		</div>
+	</label>
 	<input type="checkbox" id="show-menu">
-		<ul id="menu">
+		<ul id="mobile-menu__menu">
 		<li><a href="#">Home</a></li>
-		<li>			<a href="#">About</a>		</li>
-		<li>			<a href="#">Portfolio</a>		</li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Portfolio</a></li>
 		<li><a href="#">News</a></li>
 		<li><a href="#">Contact</a></li>
 	</ul>
 </nav>
-<!-- Navigation based on spectre navbar -->
-		<div class="container grid-lg">
-			<header class="navbar">
-				<!-- Navigation leftside -->
-				<div class="navbar__section">
-					<a href="#featured-link" class="btn btn-link text-primary">Feature</a>
-					<a href="#styleguide-link" class="btn btn-link text-primary">Styleguide</a>
-				</div>
-				<!-- Navigation center -->
-				<div class="navbar__center">
-					<i class="icon text-gray icon-photo"></i>
-				</div>
-				<!-- Navigation rightside -->
-				<div class="navbar__section">
-					<a href="https://www.instagram.com/yelrom_/" target="_blank" class="btn btn-link text-primary">Insta</a>
-					<a href="https://github.com/gasseklopper/portfolio_mmo" target="_blank" class="btn btn-link text-primary">GitHub</a>
-				</div>
-			</header>
-			<div class="divider"></div>
-		</div>
+
 <!-- about Fullwidth no container wrap-->
 		<div class="container grid-lg">
 			<section class="about text-center text-gray p-2">
@@ -319,5 +305,25 @@
 				</div><!-- end columns -->
 			</div><!-- end .post -->
 		</div><!-- end container -->
+<!-- Navigation based on spectre navbar -->
+		<div class="container grid-lg">
+			<footer class="navbar">
+				<!-- Navigation leftside -->
+				<div class="navbar__section">
+					<a href="#featured-link" class="btn btn-link text-primary">Feature</a>
+					<a href="#styleguide-link" class="btn btn-link text-primary">Styleguide</a>
+				</div>
+				<!-- Navigation center -->
+				<div class="navbar__center">
+					<i class="icon text-gray icon-photo"></i>
+				</div>
+				<!-- Navigation rightside -->
+				<div class="navbar__section">
+					<a href="https://www.instagram.com/yelrom_/" target="_blank" class="btn btn-link text-primary">Insta</a>
+					<a href="https://github.com/gasseklopper/portfolio_mmo" target="_blank" class="btn btn-link text-primary">GitHub</a>
+				</div>
+			</footer>
+			<div class="divider"></div>
+		</div>
 	</body>
 </html>
