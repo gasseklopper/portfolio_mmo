@@ -5,10 +5,10 @@ $version: "0.5.3";
 $rtl: false !default;
 
 // Core colors
-$primary-color: #02b3e4 !default;
+$primary-color: #de3350 !default; // comwrap color: fff
 $primary-color-dark: darken($primary-color, 3%) !default;
-$primary-color-light: lighten($primary-color, 30%) !default;
-$secondary-color: #7d97ad !default;
+$primary-color-light: lighten($primary-color, 40%) !default;
+$secondary-color: #ddd !default;   // comwrap color: de3350
 $secondary-color-dark: darken($secondary-color, 3%) !default;
 $secondary-color-light: lighten($secondary-color, 3%) !default;
 

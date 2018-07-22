@@ -1,69 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="robots" content="index, follow">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Markus Morley Portfolio</title>
-	<!-- Spectre.css CSS -->
-	<link rel="stylesheet" href="dist/spectre.css">
-	<!-- Spectre-icons.css CSS ICONS-->
-	<link rel="stylesheet" href="dist/spectre-icons.css">
-	<!-- main.js javascript -->
-	<script src="dist/js/main.js"></script>
-	<script src="dist/js/smoothscroll.min.js"></script>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="robots" content="index, follow">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Markus Morley Portfolio</title>
+		<!-- Spectre.css CSS -->
+		<link rel="stylesheet" href="dist/spectre.css">
+		<!-- Spectre-icons.css CSS ICONS-->
+		<link rel="stylesheet" href="dist/spectre-icons.css">
+		<!-- main.js javascript -->
+		<script src="dist/js/main.js"></script>
+		<script src="dist/js/smoothscroll.min.js"></script>
+	</head>
 	<body>
 
-<!-- mobile-menu Fullwidth no container wrap-->
-<nav class="mobile-menu" id="home-link">
-	<label for="mobile-menu__show-menu" class="mobile-menu__show-menu">
-		<i class="icon text-dark icon-menu"></i>
-	</label>
-	<input type="checkbox" id="mobile-menu__show-menu">
-	<ul class="mobile-menu__menu">
-		<li><a href="#featured-link">Features</a></li>
-		<li><a href="#styleguide-link">Styleguide</a></li>
-		<li><a href="#post-link">Blog Post</a></li>
-		<li><a href="#footer-link">Footer</a></li>
-	</ul>
-</nav>
-<!-- about Fullwidth no container wrap-->
-		<div class="container grid-lg p-2">
-			<section class="about text-center text-gray p-2">
-				<div class="about__background box__shadow">
-					<div class="columns">
-						<div class="column col-sm-8 col-md-8 col-lg-6 col-xl-6 col-5 col-mx-auto">
-							<h1>Markus Morley</h1>
-							<p class="text-secondary">Photographer - UX Designer</p>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-<!-- Hero -->
+	<!-- mobile-menu Fullwidth no container wrap-->
+		<nav class="mobile-menu" id="home-link">
+			<label for="mobile-menu__show-menu" class="mobile-menu__show-menu">
+				<i class="icon text-dark icon-menu"></i>
+			</label>
+			<input type="checkbox" id="mobile-menu__show-menu">
+			<ul class="mobile-menu__menu">
+				<li><a href="#featured-link text-dark">Features</a></li>
+				<li><a href="#styleguide-link">Styleguide</a></li>
+				<li><a href="#post-link">Blog Post</a></li>
+				<li><a href="#footer-link">Footer</a></li>
+			</ul>
+		</nav>
+	<!-- Hero -->
 		<div class="container grid-lg">
 			<section class="hero box">
 				<div class="columns">
 					<div class="column col-12">
 						<!-- hero headline -->
 						<div class="hero__headline">
-							<h2 class="text-center">Welcome to my portfolio </h2>
-							<h3 class="text-center"><small class="label label-primary">made with <a href="https://picturepan2.github.io/spectre/index.html">Spectre.css</a></small></h3>
 						</div>
 					</div>
 					<!-- Hero image and caption text-->
 					<div class="column col-12">
-						<figure>
-							<img src="assets/images/stock/photo-1530779999716-9271dcb59efa.jpg" class="hero__image img-responsive" alt="">
-							<figcaption class="figure-caption text-right">A picture by <a href="https://unsplash.com/photos/lPpavfrh2zA">unsplash</a></figcaption>
-						</figure>
+						<div class="hero__imageoverlay">
+							<div class="hero__imagetextbox box__shadow">
+								<h2 class="text-center">Welcome to my portfolio </h2>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
 		</div>
-<!-- featured -->
+	<!-- featured -->
 		<div class="container grid-lg">
 			<!-- anchor id for navigation -->
 			<section class="featured" id="featured-link">
@@ -79,7 +65,7 @@
 					<div class="column col-sm-12 col-4">
 					<article class="featured">
 						<figure>
-							<img src="assets/images/stock/photo-1429087969512-1e85aab2683d.jpg" class="featured__image box__shadow img-responsive" alt="">
+							<img src="assets/images/tokyo/taatoo/Markus_Morley_Tokyo_day 006-8024_thumb.jpg" class="featured__image box__shadow img-responsive" alt="">
 							<h4 class="text-center">Lightweight</h4>
 							<h5 class="text-center"><small class="label label-primary">(~10KB gzipped) </small></h5>
 							<figcaption class="figure-caption text-center">A picture by <a href="https://unsplash.com/photos/nptLmg6jqDo">unsplash</a></figcaption>
@@ -89,7 +75,7 @@
 					<div class="column col-sm-6 col-4">
 						<article class="featured">
 							<figure>
-								<img src="assets/images/stock/photo-1497034825429-c343d7c6a68f.jpg" class="featured__image box__shadow img-responsive" alt="">
+								<img src="assets/images/tokyo/buildings/Markus_morley_tokyo_day_005-6633_thumb.jpg" class="featured__image box__shadow img-responsive" alt="">
 								<h4 class="text-center">Modern</h4>
 								<h5 class="text-center"><small class="label label-primary">Elegantly designed</small></h5>
 								<figcaption class="figure-caption text-center">A picture by <a href="https://unsplash.com/photos/TLD6iCOlyb0">unsplash</a></figcaption>
@@ -99,7 +85,7 @@
 					<div class="column col-sm-6 col-4">
 						<article class="featured">
 							<figure>
-								<img src="assets/images/stock/photo-1514517521153-1be72277b32f.jpg" class="featured__image  box__shadow img-responsive" alt="">
+								<img src="assets/images/tokyo/living/Markus_Morley_Tokyo_day_003-4905_thumb.jpg" class="featured__image  box__shadow img-responsive" alt="">
 								<h4 class="text-center">Responsiv</h4>
 								<h5 class="text-center"><small class="label label-primary">Flexbox-based</small></h5>
 								<figcaption class="figure-caption text-center">A picture by <a href="https://unsplash.com/photos/Fq54FqucgCE">unsplash</a></figcaption>
@@ -109,17 +95,19 @@
 					<div class="column col-sm-6 col-md-12 col-4">
 						<article class="featured">
 							<figure>
-								<img src="assets/images/stock/photo-1508067397415-e1086a135fff.jpg" class="featured__image box__shadow img-responsive" alt="">
+								<img src="assets/images/tokyo/urbanity/Markus_Morley_Tokyo_Day 001-3030_thumb.jpg" class="featured__image box__shadow img-responsive" alt="">
 								<h4 class="text-center">Popovers</h4>
 								<h5 class="text-center"><small class="label label-primary">small overlay</small></h5>
 								<figcaption class="figure-caption text-center">A picture by <a href="https://unsplash.com/photos/MF_hmgZcaz4">unsplash</a></figcaption>
 							</figure>
 						</article>
 					</div>
+
+
 					<div class="column col-sm-6 col-md-6 col-4">
 						<article class="featured">
 							<figure>
-								<img src="assets/images/stock/photo-1524408504872-4d40d453c67f.jpg" class="featured__image box__shadow img-responsive" alt="">
+								<img src="assets/images/tokyo/faces/faces-9208_thumb.jpg" class="featured__image box__shadow img-responsive" alt="">
 								<h4 class="text-center">Experimentals</h4>
 								<h5 class="text-center"><small class="label label-primary">many features</small></h5>
 								<figcaption class="figure-caption text-center">A picture by <a href="https://unsplash.com/photos/WmmcTOe3vqA">unsplash</a></figcaption>
@@ -129,7 +117,7 @@
 					<div class="column col-sm-12 col-md-6 col-4">
 						<article class="featured">
 							<figure>
-								<img src="assets/images/stock/photo-1483959651481-dc75b89291f1.jpg" class="featured__image  box__shadow img-responsive" alt="">
+								<img src="assets/images/tokyo/fish/IMG_0821_thumb.jpg" class="featured__image  box__shadow img-responsive" alt="">
 								<h4 class="text-center">Custom version </h4>
 								<h5 class="text-center"><small class="label label-primary label-primary">Sass files</small></h5>
 								<figcaption class="figure-caption text-center">A picture by <a href="https://unsplash.com/photos/Wc8k-KryEPM">unsplash</a></figcaption>
@@ -139,83 +127,13 @@
 				</div>
 			</section><!--end .featured -->
 		</div><!--end container -->
-<!-- styleguide -->
-		<div class="container grid-xl">
-			<section class="styleguide" id="styleguide-link">
-				<div class="styleguide__headline text-center">
-					<h2> Styleguide</h2>
-					<h2><small class="label label-primary ">colors and some basics</small></h2>
-					<p>Typography sets default styles for headings, paragraphs, semantic text, blockquote and lists elements.</p>
-				</div>
-
-				<div class="columns">
-					<div class="column col-6">
-						<h2>Headline and paragraph text</h2>
-						<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-					</div>
-					<div class="column col-6">
-						<h2>Headline, subheadline and paragraph text</h2>
-						<h5 class="text-left"><small class="label label-primary">subheadline</small></h5>
-						<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-					</div>
-				</div>
-				<!-- Headlines H1 - H6 -->
-				<div class="columns">
-					<div class="column col-sm-12 col-6 text-center">
-						<h2 class="label label-primary ">Headline H1 - H6</h2>
-						<div class="styleguide__reset">
-							<h1>H1 Heading <small class="label label-primary">40px</small></h1>
-							<h2>H2 Heading <small class="label label-primary">32px</small></h2>
-							<h3>H3 Heading <small class="label label-primary">28px</small></h3>
-							<h4>H4 Heading <small class="label label-primary">24px</small></h4>
-							<h5>H5 Heading <small class="label label-primary">20px</small></h5>
-							<h6>H6 Heading <small class="label label-primary">16px</small></h6>
-						</div>
-						<div class="styleguide__standard text-dark">
-							<h1><small class="label label-primary">H1 Heading </small> 40px</h1>
-							<h2><small class="label label-primary">H2 Heading </small> 32px</h2>
-							<h3><small class="label label-primary">H3 Heading </small> 28px</h3>
-							<h4><small class="label label-primary">H4 Heading </small> 24px</h4>
-							<h5><small class="label label-primary">H5 Heading </small> 20px</h5>
-							<h6><small class="label label-primary">H6 Heading </small> 16px</h6>
-						</div>
-					</div>
-					<!-- Colors -->
-					<div class="column col-sm-12 col-6 text-center">
-						<div class="styleguide__colors">
-							<h2 class="label label-primary">Colors</h2>
-							<div class="columns box__shadow">
-								<div class="column col-xl-12 col-4 text-left">
-									<div class="styleguide__colorbox bg-primary">
-										<p class="text-light p-2">primary color</p>
-										<p class="text-light p-2">#02b3e4</p>
-									</div>
-								</div>
-								<div class="column col-xl-12 col-4 text-left">
-									<div class="styleguide__colorbox bg-dark">
-										<p class="text-secondary p-2">dark color</p>
-										<p class="text-secondary p-2">#2d3c49</p>
-									</div>
-								</div>
-								<div class="column col-xl-12 col-4 text-left">
-									<div class="styleguide__colorbox bg-secondary">
-										<p class="text-dark p-2">secondary color</p>
-										<p class="text-dark p-2">#7d97ad</p>
-									</div>
-								</div>
-							</div>
-						</div><!-- end Colors -->
-					</div>
-				</div><!-- end Headlines and Colors -->
-			</section><!-- end Styleguide-->
-		</div><!-- end Container-->
-<!-- Post -->
+	<!-- Post -->
 		<div class="container grid-xl" id="post-link">
 			<div class="post">
 				<div class="colums">
 					<div class="column col-12">
 						<div class="post__intro text-center">
-							<h2 class="h2 post__headline">Travel to the Roots. </h2>
+							<h2 class="h2 post__headline">Tokyo Fishmarket</h2>
 							<h3 class="h3"><small class="label label-primary">Design and Photography</small></h3>
 						</div><!-- /post__intro -->
 					</div>
@@ -224,7 +142,7 @@
 							<figure>
 								<h6 class="text-left">Forest</h6>
 								<div class="box__shadow">
-									<img src="assets/images/roots/photo-1432839569524-2bb6d0fd77c6.jpg" class="box__image img-responsive" alt="Work image">
+									<img src="assets/images/tokyo/fish/IMG_0741.jpg" class="box__image img-responsive" alt="Work image">
 								</div>
 								<figcaption class="figure-caption text-right">A picture by <a href="https://unsplash.com/photos/RxKR_1acucY" target="_blank">unsplash</a></figcaption>
 							</figure>
@@ -250,7 +168,7 @@
 							<figure>
 								<h6 class="text-left">car</h6>
 								<div class="box__shadow">
-									<img src="assets/images/roots/photo-1432838933001-a143b529ea43.jpg" class="box__image img-responsive" alt="Work image">
+									<img src="assets/images/tokyo/fish/IMG_0747.jpg" class="box__image img-responsive" alt="Work image">
 								</div>
 								<figcaption class="figure-caption text-right">A picture by <a href="https://unsplash.com/photos/T3S8mPD39bg" target="_blank">unsplash</a></figcaption>
 							</figure>
@@ -267,7 +185,7 @@
 							<figure>
 								<h6 class="text-left">Shoes</h6>
 								<div class="box__shadow">
-									<img src="assets/images/roots/photo-1432838906163-9ade3e04aa49.jpg" class="box__image img-responsive" alt="Work image">
+									<img src="assets/images/tokyo/fish/IMG_0756.jpg" class="box__image img-responsive" alt="Work image">
 								</div>
 								<figcaption class="figure-caption text-left">A picture by <a href="https://unsplash.com/photos/4HOWAurtyM4" target="_blank">unsplash</a></figcaption>
 							</figure>
@@ -291,7 +209,7 @@
 								<figure>
 									<h6 class="text-left">Forest 2</h6>
 									<div class="box__shadow">
-										<img src="assets/images/roots/photo-1432839591269-165850817cbc.jpg" class="box__image img-responsive" alt="Work image">
+										<img src="assets/images/tokyo/fish//Markus_morley_tokyo_day_005-6227.jpg" class="box__image img-responsive" alt="Work image">
 									</div>
 									<figcaption class="figure-caption text-right">A picture by <a href="https://unsplash.com/photos/CdbNtePkCSE" target="_blank">unsplash</a></figcaption>
 								</figure>
@@ -301,7 +219,7 @@
 				</div><!-- end columns -->
 			</div><!-- end .post -->
 		</div><!-- end container -->
-<!-- Navigation based on spectre navbar -->
+	<!-- Navigation based on spectre navbar -->
 		<div class="container grid-lg">
 			<footer class="navbar" id="footer-link">
 				<!-- Navigation leftside -->

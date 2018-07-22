@@ -287,7 +287,7 @@ html {
 }
 
 body {
-  background: #7d97ad;
+  background: #ddd;
   color: #50596c;
   font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-size: .8rem;
@@ -296,25 +296,25 @@ body {
 }
 
 a {
-  color: #02b3e4;
+  color: #de3350;
   outline: none;
   text-decoration: none;
 }
 
 a:focus {
-  box-shadow: 0 0 0 .1rem rgba(2, 179, 228, .2);
+  box-shadow: 0 0 0 .1rem rgba(222, 51, 80, .2);
 }
 
 a:focus,
 a:hover,
 a:active,
 a.active {
-  color: #028bb1;
+  color: #bf1f3a;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #1cccfd;
+  color: #e55f76;
 }
 
 /*! Elements from spectre */
@@ -460,9 +460,9 @@ dl dd {
   -moz-appearance: none;
   appearance: none;
   background: #ddd;
-  border: .05rem solid #02b3e4;
+  border: .05rem solid #de3350;
   border-radius: .1rem;
-  color: #02b3e4;
+  color: #de3350;
   cursor: pointer;
   display: inline-block;
   font-size: .8rem;
@@ -482,20 +482,20 @@ dl dd {
 }
 
 .btn:focus {
-  box-shadow: 0 0 0 .1rem rgba(2, 179, 228, .2);
+  box-shadow: 0 0 0 .1rem rgba(222, 51, 80, .2);
 }
 
 .btn:focus,
 .btn:hover {
-  background: #7d97ad;
-  border-color: #02a7d5;
+  background: #ddd;
+  border-color: #dc2645;
   text-decoration: none;
 }
 
 .btn:active,
 .btn.active {
-  background: #02a7d5;
-  border-color: #0293bc;
+  background: #dc2645;
+  border-color: #c8203d;
   color: #ddd;
   text-decoration: none;
 }
@@ -515,22 +515,22 @@ dl dd {
 }
 
 .btn.btn-primary {
-  background: #02b3e4;
-  border-color: #02a7d5;
+  background: #de3350;
+  border-color: #dc2645;
   color: #ddd;
 }
 
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
-  background: #029fcb;
-  border-color: #0293bc;
+  background: #d52241;
+  border-color: #c8203d;
   color: #ddd;
 }
 
 .btn.btn-primary:active,
 .btn.btn-primary.active {
-  background: #0297c1;
-  border-color: #028bb1;
+  background: #cc213e;
+  border-color: #bf1f3a;
   color: #ddd;
 }
 
@@ -600,14 +600,14 @@ dl dd {
 .btn.btn-link {
   background: transparent;
   border-color: transparent;
-  color: #02b3e4;
+  color: #de3350;
 }
 
 .btn.btn-link:focus,
 .btn.btn-link:hover,
 .btn.btn-link:active,
 .btn.btn-link.active {
-  color: #028bb1;
+  color: #bf1f3a;
 }
 
 .btn.btn-sm {
@@ -725,12 +725,12 @@ dl dd {
 
 .label.label-primary {
   background: #454d5d;
-  color: #7d97ad;
+  color: #ddd;
 }
 
 .label.label-secondary {
-  background: #7d97ad;
-  color: #02b3e4;
+  background: #ddd;
+  color: #de3350;
 }
 
 .label.label-success {
@@ -1272,29 +1272,29 @@ video.video-responsive::before {
 /*! Components from spectre */
 /*! Utility drom spectre */
 .text-primary {
-  color: #02b3e4;
+  color: #de3350;
 }
 
 a.text-primary:focus,
 a.text-primary:hover {
-  color: #029fcb;
+  color: #d52241;
 }
 
 a.text-primary:visited {
-  color: #03c7fd;
+  color: #e24963;
 }
 
 .text-secondary {
-  color: #748fa7;
+  color: #d5d5d5;
 }
 
 a.text-secondary:focus,
 a.text-secondary:hover {
-  color: #64839d;
+  color: #c9c9c9;
 }
 
 a.text-secondary:visited {
-  color: #839cb1;
+  color: #e2e2e2;
 }
 
 .text-gray {
@@ -1376,13 +1376,12 @@ a.text-error:visited {
 }
 
 .bg-primary {
-  background: #02b3e4;
+  background: #de3350;
   color: #ddd;
 }
 
 .bg-secondary {
-  background: #7d97ad;
-  color: #ddd;
+  background: #ddd;
 }
 
 .bg-dark {
@@ -1506,7 +1505,7 @@ a.text-error:visited {
 }
 
 .divider {
-  border-top: .05rem solid #02b3e4;
+  border-top: .05rem solid #de3350;
   height: .05rem;
   margin: .4rem 0;
 }
@@ -1548,7 +1547,7 @@ a.text-error:visited {
 
 .loading::after {
   animation: loading 500ms infinite linear;
-  border: .1rem solid #02b3e4;
+  border: .1rem solid #de3350;
   border-radius: 50%;
   border-right-color: transparent;
   border-top-color: transparent;
@@ -1954,6 +1953,31 @@ a.text-error:visited {
   border-radius: 15px;
 }
 
+.hero__imageoverlay {
+  background: url(../assets/images/tokyo/Markus_Morley_Tokyo_day_003-3969.jpg);
+  background-repeat: no-repeat; 
+  background-size: contain;
+  border-radius: 15px;
+  height: 48em;
+}
+
+.hero__imagetextbox {
+  background-color: #de3350;
+  border-radius: 15px;
+  height: 100%;
+  left: 40px;
+  position: relative; 
+  top: 20px;
+}
+
+.hero__imagetextbox h2 {
+  background-color: #de3350;
+  border-radius: 15px;
+  color: white; 
+  height: 300px;
+  width: 200px;
+}
+
 /*! fetured section */
 .featured__headline {
   padding: 3em 0 1em;
@@ -2026,7 +2050,7 @@ a.text-error:visited {
 }
 
 .about h1 {
-  color: #81e3fe;
+  color: #fae3e7;
   text-decoration: none;
 }
 
@@ -2128,7 +2152,7 @@ a.text-error:visited {
 
 .mobile-menu li a {
   background: #454d5d;
-  color: #81e3fe;
+  color: #ddd;
   display: block;
   margin-left: -5px;
   min-width: 100px;
@@ -2139,7 +2163,7 @@ a.text-error:visited {
 }
 
 .mobile-menu li:hover a {
-  background-color: #7d97ad; 
+  background-color: #ddd; 
   color: #454d5d;
 }
 
@@ -2162,7 +2186,7 @@ a.text-error:visited {
 
 @media screen and (max-width: 800px) {
   .mobile-menu ul {
-    background: #7d97ad;
+    background: #ddd;
     display: none;
     position: static;
     width: 40%;
