@@ -2118,9 +2118,7 @@ a.text-error:visited {
 /*! box elemt for boxes */
 .box__shadow {
   background: url(../assets/images/ui/background-stripe.png); 
-  height: 100%;
   padding: 0 1em 1em 0;
-  width: 100%;
 }
 
 .box__shadow img {
